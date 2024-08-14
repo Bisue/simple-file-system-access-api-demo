@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/preflight.css">
+    <link rel="stylesheet" href="/css/demo.css">
+    <title>File System Access API Demo</title>
+</head>
+
+<body>
+    <main>
+        <h1>File System Access API Demo</h1>
+
+        <textarea id="log" rows="5" readonly placeholder="로그 디스플레이"></textarea>
+
+        <button class="mb" id="dialogButton">폴더 선택</button>
+
+        <nav>
+            <h2>파일</h2>
+            <ul id="hierarchy"></ul>
+        </nav>
+
+        <textarea id="contents" rows="10" placeholder="(비어 있음)"></textarea>
+
+        <button id="saveButton" disabled>저장</button>
+    </main>
+    <script src="/js/demo.js"></script>
+</body>
+
+</html>
