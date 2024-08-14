@@ -8,8 +8,7 @@
 (제일 기초적인 API만)  
 ([MDN](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API))
 
-<img src="/img/md_screenshot1.png" alt="Demo1" width="49%">
-<img src="/img/md_screenshot2.png" alt="Demo1" width="49%">
+<img src="/img/md_screenshot1.png" alt="Demo1" width="49%"> <img src="/img/md_screenshot2.png" alt="Demo1" width="49%">
 
 ## Requirement
 
