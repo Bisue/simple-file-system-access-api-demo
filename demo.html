@@ -15,18 +15,21 @@
 
         <textarea id="log" rows="5" readonly placeholder="로그 디스플레이"></textarea>
 
-        <button class="mb" id="dialogButton">폴더 선택</button>
+        <div id="hierarchy">
+            <button class="mb">폴더 선택</button>
+            <nav>
+                <h2>파일</h2>
+                <ul></ul>
+            </nav>
+        </div>
 
-        <nav>
-            <h2>파일</h2>
-            <ul id="hierarchy"></ul>
-        </nav>
+        <div id="editor">
+            <textarea rows="10" placeholder="(비어 있음)"></textarea>
 
-        <textarea id="contents" rows="10" placeholder="(비어 있음)"></textarea>
-
-        <button id="saveButton" disabled>저장</button>
+            <button disabled>저장</button>
+        </div>
     </main>
-    <script src="/js/demo.js"></script>
+    <script type="module" src="/js/demo.js"></script>
 </body>
 
 </html>
