@@ -2,6 +2,10 @@
 
 > File System Access API 간단 데모
 
+## Live Demo
+
+- ### [Demo(Github Pages)](https://bisue.github.io/simple-file-system-access-api-demo/demo.html)
+
 ## Introduction
 
 브라우저 차원에서 직접 사용자 파일 시스템에 접근할 수 있는 `File System Access API` 관련 데모.  
