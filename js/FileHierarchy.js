@@ -37,6 +37,7 @@ class FileHierarchy {
      */
     async setDirectory(directoryData) {
         this.files = await directoryData.readFiles({fileOnly: true});
+        this.selectedIndex = -1;
 
         this.render();
     }

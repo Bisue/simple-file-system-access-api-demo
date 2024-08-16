@@ -15,6 +15,7 @@ import eventBus from "./EventBus.js";
         });
 
         eventBus.subscribe("onAfterDirectorySelected", (directoryData) => {
+            editor.setFile(null);
             logger.log('폴더 불러옴!');
         });
 

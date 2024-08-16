@@ -18,6 +18,7 @@ class FileEditor {
         this.$element = $element;
         this.$contents = $element.querySelector("textarea");
         this.$saveButton = $element.querySelector("button");
+        this.file = null;
     }
 
     /**
